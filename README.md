@@ -93,7 +93,7 @@ The notebook's recorded training output reports the following values:
     4,000          2.5517            2.5670
     4,750          2.5056            2.5138
 
-![PyGPT training and validation loss](assets/loss_curve.png)
+![PyGPT training and validation loss](loss_curve.png)
 
 **Interpretation:** Both training and validation loss decrease
 substantially in the recorded run, suggesting the model is learning
@@ -168,8 +168,7 @@ print(f"Total parameters (millions): {total_params / 1_000_000:.2f}M")
 codeslm/
 ├── PyGPT.ipynb          # Dataset preparation, model, training, and generation
 ├── README.md            # Project overview and reproducibility notes
-└── assets/
-    └── loss_curve.png   # Recorded training/validation loss plot
+└── loss_curve.png   # Recorded training/validation loss plot
 ```
 
 The loss plot is generated from the values recorded in the notebook
